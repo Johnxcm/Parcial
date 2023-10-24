@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= autor ="Jose Rodriguez">
     <title>Resultados de Partidos</title>
 </head>
 <body>
@@ -67,6 +68,18 @@
         <br>
     </div>
 </section>
+     <section id="comments">
+        <h2><big>Deja un comentario</big></h2>
+        <form action="procesar_comentario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Enviar Comentario">
+        </form>
+    </section>
 <footer>
     <p><b>&copy; 2023 La Esquina Del Futbol</b></p>
 </footer>
